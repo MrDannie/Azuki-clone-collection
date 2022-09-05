@@ -1,5 +1,6 @@
 html,
 body {
+  background-color: black;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -11,8 +12,31 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.progress-bar {
+  display: flex;
+  color: white;
+}
+
+.logo {
+  border-radius: 10%;
+}
+
+.connect-wallet {
+  width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    font-size: 12px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    font-size: small;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

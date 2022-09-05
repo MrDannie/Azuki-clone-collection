@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@thirdweb-dev/react": "^2.9.6",
+    "@thirdweb-dev/sdk": "^2.4.8",
+    "ethers": "^5.7.0",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-loading": "^2.0.3",
+    "tailwind-styled-components": "^2.1.8"
   },
   "devDependencies": {
     "eslint": "8.23.0",
